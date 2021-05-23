@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<!--    rettep-internet    -->
+	<!-- http://www.rettep.net -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+	<title>beastie boys</title>
+</head>
+<body>
+	<header>
+		<h1>Beastie Boys</h1>
+	</header>
+	<main>
+		<nav>
+			<ul>
+				<li><a href="index.html" >biografie</a></li>
+				<li><a href="discografie.html" >discografie</a></li>
+				<li><a href="" >contact</a></li>
+			</ul>
+		</nav>
+		<article>
+			<section>
+				<header>
+					<h2>Contact</h2>
+				</header>
+				<form name="contact" method="POST" data-netlify="true">
+					<p class="p-form">
+						<label class="f-i-label">Naam: </label><input class="f-input" type="text" name="naam" />   
+					</p>
+					<p class="p-form">
+						<label class="f-i-label">Email: </label><input class="f-input" type="email" name="email" />
+					</p>
+					<p class="p-form">
+						<label class="f-i-label">Telefoonnummer: </label><input class="f-input" type="tel" name="telefoon" />  
+					</p>
+					<p class="p-form">
+						<label class="f-i-label">Leeftijd: </label><input class="f-input" type="number" name="leeftijd" min="18" max="110" />   
+					</p>
+					<br>
+					<p class="p-form">
+						Hoe vaak heb je ze gezien:<br>
+						<input type="radio" id="een" name="gezien" value="een" />&nbsp;<label class="f-c-label" for="een">E&eacute;n keer</label><br>
+						<input type="radio" id="twee" name="gezien" value="twee" />&nbsp;<label class="f-c-label" for="twee">Twee keer</label><br>
+						<input type="radio" id="meer" name="gezien" value="meer" />&nbsp;<label class="f-c-label" for="meer">Meer dan twee keer</label><br>
+					</p>
+					<br>
+					<p class="p-form">
+						Favoriete albums:<br>
+						<input type="checkbox" id="fav_album1" name="fav_album1" value="Licensed to Ill">&nbsp;<label class="f-c-label" for="fav_album1"> Licensed to Ill</label><br>
+						<input type="checkbox" id="fav_album2" name="fav_album2" value="Paul\'s Boutique">&nbsp;<label class="f-c-label" for="fav_album2"> Paul's Boutique</label><br>
+						<input type="checkbox" id="fav_album3" name="fav_album3" value="Check Your Head">&nbsp;<label class="f-c-label" for="fav_album3"> Check Your Head</label><br>
+						<input type="checkbox" id="fav_album4" name="fav_album4" value="Ill Communication">&nbsp;<label class="f-c-label" for="fav_album4"> Ill Communication</label><br>
+						<input type="checkbox" id="fav_album4" name="fav_album5" value="Hello Nasty">&nbsp;<label class="f-c-label" for="fav_album5"> Hello Nasty</label><br>
+						<input type="checkbox" id="fav_album4" name="fav_album6" value="To the 5 Boroughs">&nbsp;<label class="f-c-label" for="fav_album6"> To the 5 Boroughs</label><br>
+						<input type="checkbox" id="fav_album4" name="fav_album7" value="The Mix-Up">&nbsp;<label class="f-c-label" for="fav_album7"> The Mix-Up</label><br>
+						<input type="checkbox" id="fav_album4" name="fav_album8" value="Hot Sauce Committee, Pt. 2">&nbsp;<label class="f-c-label" for="fav_album8"> Hot Sauce Committee, Pt. 2</label><br>
+					</p>
+					<br>
+					<p class="p-form">
+						<label class="f-label">Wil je nog wat kwijt? </label><textarea rows="5" cols="18" name="message"></textarea>
+					</p>
+
+					<p class="p-form">
+						<input type="submit" name="verzenden" value="Verzenden" />
+					</p>
+				</form>
+			</section>
+		</article>
+	</main>
+	<footer>
+	<p class="footer">
+		Bron: <a href="" target="_blank">Lorum ipsum</a>
+	</p>
+	</footer>
+	<script>
+
+	</script>
+</body>
+</html>
